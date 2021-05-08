@@ -1,0 +1,369 @@
+/* Text */
+body{
+    font-family: Montserrat;
+}
+.navbar-brand{
+    font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  margin: 0px 0px 0px 50px;
+  color: #0C6170 !important;
+}
+
+h1{
+    font-family: Montserrat;
+  font-size: 50px;
+  font-weight: bold !important;
+  color: #6e9290;
+}
+
+.lead{
+    font-family: Montserrat;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+button{
+background-color: #6e9290 !important;
+border-radius: 7vh !important;
+width: 17vh !important;
+}
+
+.nav-link{
+    color: #0C6170 !important;
+}
+
+.frase{
+    width: 73vh;
+    text-align: center;
+}
+
+
+/* Navigation bar */
+
+/*General*/
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    background-size: cover;
+    z-index: 10;
+}
+
+.navbar-nav{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-brand img{
+    padding: 15px;
+    width: 65px;
+}
+
+.nav-item{
+    margin:0px 15px ;
+    color: #0C6170 !important;
+}
+
+
+/*Navigation dropdown menu*/
+.dropdown-menu{
+    background-color: white;
+    background-size: cover;
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+    color:#0C6170 !important;
+    text-decoration: none;
+    background-color: whitesmoke;
+}
+
+.dropdown-menu {
+    left: -97px;
+  }
+
+  /*Navigation links*/
+  .customNav a{
+      color: white !important;
+  }
+
+  .navCTA{
+      font-size: 15px;
+  }
+
+
+/* Jumbotron  */
+.jumbotron {
+    background-image: url("../images/two-standing-smartphones-mockup0.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items:unset;
+    justify-content:unset;
+  }
+  
+  /* Jumbotron copy */
+
+  .d-flex{
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: flex-end;
+      margin-top: 42%;
+  }
+
+  #jumboCopy {
+    color: white;
+    text-align:center;
+    height: 50%;
+    width: 250%;
+    display: flex;
+    flex-direction: column;
+    align-items: botton;
+    justify-content: flex-end;
+  }
+
+  .display-4{
+      color: white;
+  }
+
+  .lead{
+      color: white;
+      font-size: 35px;
+  }
+
+  /*Role*/
+.Roles{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly !important;
+}
+
+  .Rol{
+      font-size: 18px;
+      font-weight: bold;
+      color: #A66732;
+      text-align: center;
+  }
+
+
+
+  /*Description*/
+
+  .descritpionConnor{
+      background-color: #ECDCC5;
+      padding: inline 20% ;
+  }
+
+  #description{
+      background-color: #ECDCC5 !important;
+      width: 85vh;
+      margin-top: 5%;
+  }
+
+  .muckuper{
+      width: 70vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  /*User Research*/
+
+  .TittleUser{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 5%;
+      color: #0c6170;
+      font-size: 80px;
+      font-weight: bold;
+  }
+
+  .container1{
+      margin: 5%;
+      padding:inline 20%;
+  }
+
+/*Ideations*/
+.IdeationPart{
+    background-color:#a7bcc1;
+}
+
+.Ideation{
+    color: #e5e5e5;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 5%;
+      font-size: 80px;
+      font-weight: bold;
+}
+
+.col-sm{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.Subtittle{
+    font-size: 24px;
+    font-weight: bold !important;
+}
+
+.FeatureImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#text6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card{
+    background-color: transparent;
+    width:70%;
+
+}
+
+.card1{
+    background-color: transparent;
+    width:70%;
+    margin-bottom: 50%;
+
+}
+
+.ValueContainer{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2.5%;
+    padding-bottom: 5%;
+}
+
+.CompetitorContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 5%;*/
+}
+
+.CompetitorText{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.SketchContainers{
+display: flex;
+align-items: center;
+justify-content: center;
+
+    /*padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2.5%;*/
+}
+
+/*Prototype*/
+
+.StepsContainer{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.PrototypeContainer{
+    padding: 10%;
+}
+
+.Arrow2{
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    width: 30%;
+}
+
+
+.card-img-top5{
+    border-radius: 8% !important;
+    width: 90%;
+}
+
+
+/*Conclusion*/
+
+.Conclusion{
+    background-color: #bcd1e4;
+}
+
+.TittleConclusion{
+    color:#cf996a;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+     margin-bottom: 1.5%;
+      font-size: 80px;
+      font-weight: bold;
+}
+
+.FinalContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+}
+
+.TextConclusion{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*margin:10%;*/
+}
+
+/*End*/
+
+.Connor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f3f2;
+}
+
+.memory{
+    margin: 5%;
+    font-style: italic;
+}
+
+
+/*Footer*/
+#footer{
+    margin: 2%;
+    font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.icon{
+    margin: 0.5%;
+}
+
+
